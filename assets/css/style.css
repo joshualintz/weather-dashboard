@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #33FFDA;
+    --secondary-color: #3358FF;
+    --tertiary-color: #E9EAED;
+    --quaternary-color: #6ee041;
+    --quinary-color: #33BEFF;
+    --senary-color: #F85767;
+    --septenary-color: #895BDB;
+    --octonary-color: #525252;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    text-align: center;
+    color: white;
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 10px solid var(--octonary-color);
+}
+

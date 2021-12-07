@@ -15,6 +15,7 @@ This week’s Challenge is to create a simple application for checking the curre
 * [JQuery](https://jquery.com/)
 * [JavaScript](https://www.javascript.com/)
 * [OpenWeather API](https://openweathermap.org/api/one-call-api)
+* [moment.js](https://momentjs.com/)
 
 ## User Story
 

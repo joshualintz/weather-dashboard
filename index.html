@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Weather Dashboard</title>
+ 
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <section class="jumbotron">
+        <div>
+            <h1>Weather Dashboard</h1>
+        </div>
+    </section>
+
+    <!-- Search Container -->
+    <section>
+        <div>
+            <form>
+                <input type="text" placeholder="Enter the name of a city" />
+                <button>Get Weather</button>
+            </form>
+        </div>
+    
+    <!-- List of Searched Cities Container -->
+    <div class="box table-box">
+        <div class="table-container">
+            <table id="cityList" class="table is-bordered">
+                <tr></tr>
+                <!-- Table data generated in javascript -->
+            </table>
+            <button id="clr-btn" class="button is-danger">CLEAR</button>
+        </div>
+    </div>
+
+    <!-- Forecast Cards -->
+    
+
+    </section>
+      
+<!-- JavaScript Start -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+<!-- JavaScript End -->
+  </body>
+
+</html>
