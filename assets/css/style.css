@@ -20,3 +20,12 @@
     border-bottom: 10px solid var(--octonary-color);
 }
 
+tr {
+    margin: 5px;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    margin: 3px;
+    min-height: 300px;
+}
