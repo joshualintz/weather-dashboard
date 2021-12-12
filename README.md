@@ -10,8 +10,7 @@ This week’s Challenge is to create a simple application for checking the curre
 
 ## Built With
 * HTML
-* CSS
-* [Bootstrap](https://getbootstrap.com/)
+* [Bulma CSS](https://bulma.io/)
 * [jQuery](https://jquery.com/)
 * [JavaScript](https://www.javascript.com/)
 * [OpenWeather API](https://openweathermap.org/api/one-call-api)

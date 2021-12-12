@@ -2,70 +2,69 @@
     --primary-color: #33FFDA;
     --secondary-color: #3358FF;
     --tertiary-color: #E9EAED;
-    --quaternary-color: #6ee041;
+    --quaternary-color: #525252;
     --quinary-color: #33BEFF;
-    --senary-color: #F85767;
-    --septenary-color: #895BDB;
-    --octonary-color: #525252;
+    --white: white;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--tertiary-color);
+}
+
+.hero {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid var(--quaternary-color);
+}
+
+.hero-text {
+    color: var(--quaternary-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
 #info-section {
-    padding-top: 15px;
-  }
-  
-  #weather-data {
-    background-color: #75c0f5;
-  }
-  
-  .current-city-data {
-    min-height: 300px;
-  }
-  
-  .table-box {
-    background-color:#4b6584;
-  }
-  
-  tr {
-    margin: 5px;
-  }
-  
-  .card {
-    background-color: #a5b1c2;
-    margin: 3px;
-    min-height: 300px;
-  }
-  
-  .hero {
-    background: #fa8231; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #eb3b5a,
-      #fa8231
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #eb3b5a,
-      #fa8231
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-  
-  .title {
-    color: #fff;
-  }
-  
-  #submit {
+    padding-top: 20px;
+}
+
+#weather-main {
+    background-color: var(--primary-color);
+}
+
+#submit {
     width: 100%;
     margin-bottom: 20px;
-  }
+}
+
+.table-box {
+    background-color:var(--quaternary-color);
+}
   
-  @media only screen and (max-width: 599px) {
-  
-    .column {
-      margin: 2px;
-      padding: 0 20px 0 20px;
-    }
-  
-    .card-content {
-      padding: 20px;
-    }
-  }
+tr {
+    margin: 5px;
+}
+
+.card {
+    background-color: var(--quinary-color);
+    margin: 3px;
+    min-height: 300px;
+}
+
+.current-city-data {
+    min-height: 300px;
+}
+
+@media screen and (max-width: 980px) {
+
+.column {
+    margin: 2px;
+    padding: 0 20px 0 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+}

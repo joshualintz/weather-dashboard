@@ -17,9 +17,7 @@
   <body>
     <section class="hero">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title">Weather Dashboard</h1>
-        </div>
+        <h1 class="hero-text">Weather Dashboard</h1>
       </div>
     </section>
 
@@ -28,36 +26,37 @@
         <div class="columns">
           <div class="column is-one-quarter content">
             
+            <!-- Search any city -->
             <form>
               <input
                 id="city-input"
                 class="input is-info"
                 type="text"
-                placeholder="Enter the name of a city"
+                placeholder="Search City"
               />
               <button id="submit" class="button is-info" type="submit">
-                Get Weather
+                Get Forecast!
               </button>
             </form>
             
-            <!-- list of past searched cities -->
+            <!-- list recent cities (localStorage) -->
             <div class="box table-box">
               <div class="table-container">
                 <table id="cityList" class="table is-bordered">
                   <tr></tr>
-                  <!-- Table data generated in javascript -->
+                  <!-- Dynamic table data -->
                 </table>
                 <button id="clr-btn" class="button is-danger">CLEAR</button>
               </div>
             </div>
           </div>
 
-          <!-- Space for data return from query -->
+          <!-- Featured City's weather data (#weather-main) -->
           <div class="column">
-            <div id="weather-data" class="columns box content">
+            <div id="weather-main" class="columns box content">
               <div class="column current-city-data">
                 <h2 id="city-name"></h2>
-                <h4 id="city-cond"></h4>
+                <h4 id="current-weather"></h4>
                 <h4 id="temp"></h4>
                 <h4 id="high"></h4>
                 <h4 id="humidity"></h4>

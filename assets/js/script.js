@@ -26,7 +26,7 @@ $(document).ready(function () {
         listCities();
         $("#icon").html("");
         $("#city-name").html("");
-        $("#city-cond").text("");
+        $("#current-weather").text("");
         $("#temp").text("");
         $("#humidity").text("");
         $("#wind-speed").text("");
@@ -70,7 +70,7 @@ $(document).ready(function () {
             method: "GET",
         }).then(function (response) {
             let cityName = response.name;
-            let cityCond = response.weather[0].description.toUpperCase();
+            let currentWeather = response.weather[0].description.toUpperCase();
             let cityTemp = response.main.temp;
             let cityHum = response.main.humidity;
             let cityWind = response.wind.speed;
@@ -79,7 +79,7 @@ $(document).ready(function () {
                 `<img src="http://openweathermap.org/img/wn/${icon}@2x.png">`
             );
             $("#city-name").html(cityName + " " + "(" + NowMoment + ")");
-            $("#city-cond").text("Current Conditions: " + cityCond);
+            $("#current-weather").text("Current Conditions: " + currentWeather);
             $("#temp").text("Current Temp (F): " + cityTemp.toFixed(1));
             $("#humidity").text("Humidity: " + cityHum + "%");
             $("#wind-speed").text("Wind Speed: " + cityWind + "mph");
