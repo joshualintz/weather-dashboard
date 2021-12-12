@@ -2,7 +2,7 @@
 
 This week’s Challenge is to create a simple application for checking the current weather and 5-day forecast for any city.
 
-<a href="https://joshualintz.github.io/weather-dashboard/"><img width="728" src="./assets/images/06-server-side-apis-homework-demo.png" alt="Mock-Up"></a>
+<a href="https://joshualintz.github.io/weather-dashboard/"><img width="728" src="./assets/images/06-server-side-apis-homework-demo.png" alt="Weather Dashboard Mock-Up"></a>
 
 ## Links
 * Live Site: https://joshualintz.github.io/weather-dashboard/
